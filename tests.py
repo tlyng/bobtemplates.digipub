@@ -88,6 +88,8 @@ class PloneTemplateTest(BaseTemplateTest):
                 self.project + '/src/collective/foo/testing.py',
                 self.project + '/src/collective/foo/tests',
                 self.project + '/src/collective/foo/tests/__init__.py',
+                self.project + '/src/collective/foo/tests/test_acceptance.py',
+                self.project + '/src/collective/foo/tests/test_acceptance.robot',
                 self.project + '/src/collective/foo/tests/test_setup.py',
             ]
         )
