@@ -1,5 +1,7 @@
 Introduction
 ============
+.. image:: https://secure.travis-ci.org/tlyng/bobtemplates.digipub.png
+     :target: http://travis-ci.org/tlyng/bobtemplates.digipub
 
 ``bobtemplates.digipub`` provides `mr.bob`_ templates to generate packages for
 Plone projects. Templates are designed to be reusable by others,
