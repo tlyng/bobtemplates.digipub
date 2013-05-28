@@ -4,11 +4,15 @@ python:
 
 install:
   - mkdir -p buildout-cache/{eggs,downloads}
-  - $(which echo) -e "[buildout]\nextends = buildout.d/travis.cfg" > buildout.cfg
+  - python bootstrap.py -c travis.cfg
   - make version=$TRAVIS_PYTHON_VERSION .installed.cfg
+  - bin/buildout -c travis.cfg -N -q -t 3
 
+before_script:
+  - export DISPLAY=:99.0
+  - sh -e /etc/init.d/xvfb start
 script:
-  - make tests
+  - bin/test
 
 notifications:
   irc:
