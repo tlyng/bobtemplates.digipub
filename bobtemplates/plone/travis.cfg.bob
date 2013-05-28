@@ -1,9 +1,9 @@
 [buildout]
 extends =
     https://raw.github.com/collective/buildout.plonetest/master/travis-4.x.cfg
-    versions
+    buildout.d/versions.cfg
 
-package-name = collective.cover
+package-name = {{{ package.namespace }}}.{{{ package.name }}}
 package-extras = [test]
 
 allow-hosts +=
