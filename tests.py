@@ -57,7 +57,6 @@ class PloneTemplateTest(BaseTemplateTest):
                 self.project + '/buildout.d',
                 self.project + '/buildout.d/base.cfg',
                 self.project + '/buildout.d/development.cfg',
-                self.project + '/buildout.d/travis.cfg',
                 self.project + '/buildout.d/versions.cfg',
                 self.project + '/docs',
                 self.project + '/docs/CHANGELOG.rst',
@@ -91,5 +90,6 @@ class PloneTemplateTest(BaseTemplateTest):
                 self.project + '/src/collective/foo/tests/test_acceptance.py',
                 self.project + '/src/collective/foo/tests/test_acceptance.robot',
                 self.project + '/src/collective/foo/tests/test_setup.py',
+                self.project + '/travis.cfg',
             ]
         )
