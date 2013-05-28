@@ -28,8 +28,8 @@ Global settings
 Some answers to bob's questions can be pre-filled based on global configuration
 so you don't have to answer them every time. You can store this configuration
 either on you local computer, or if you are working in a team, somewhere
-online. We, at `NiteoWeb Ltd.`_, for example, have these answers always
-available for us at http://www.niteoweb.com/mrbob.ini.
+online. We, at `Digi Publishing AS`_, for example, have these answers always
+available for us at http://www.digipub.no/mrbob.ini.
 
 
 Creating a Plone add-on package
@@ -73,7 +73,7 @@ Now you can add some customizations to views and templates, or maybe write some
 CSS and JS.
 
 .. _mr.bob: http://mrbob.readthedocs.org/en/latest/
-.. _Digi Publishing AS.: http://www.digipub.no
+.. _Digi Publishing AS: http://www.digipub.no
 .. _Plone: http://plone.org
 .. _z3c.jbot: http://pypi.python.org/pypi/z3c.jbot
 .. _Sphinx: http://sphinx-doc.org/
