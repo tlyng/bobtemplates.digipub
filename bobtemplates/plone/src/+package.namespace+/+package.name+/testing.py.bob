@@ -51,8 +51,8 @@ FIXTURE = {{{ package.namespace.capitalize() }}}{{{ package.name.capitalize() }}
 INTEGRATION_TESTING = IntegrationTesting(
     bases=(FIXTURE,), name="{{{ package.namespace.capitalize() }}}{{{ package.name.capitalize() }}}Layer:Integration")
 FUNCTIONAL_TESTING = FunctionalTesting(
-    bases=(AUTOLOGIN_LIBRARY_FIXTURE,
-           FIXTURE,
+    bases=(FIXTURE,
+           AUTOLOGIN_LIBRARY_FIXTURE,
            z2.ZSERVER_FIXTURE),
     name="{{{ package.namespace.capitalize() }}}{{{ package.name.capitalize() }}}Layer:Functional")
 
